@@ -15,7 +15,7 @@ def x_n_plus_1(mu: float, x_n: float) -> float:
 def find_stability_for_mu(mu: float, x_0=0.4, num_iter=100000) -> list:
     """
     Determines the stability points for a given mu and initial x and returns
-    them a as a list.
+    them as a list.
 
     mu - growth rate
     x_0 - initial x
